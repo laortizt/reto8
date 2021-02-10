@@ -3,15 +3,34 @@
   }
   
   body {
-
+  /* todo*/
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
   }
   
   .container {
-  
+    /* todo*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 400px;
+
   }
   
   .square {
-
+    /* todo*/
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px #000;
+  height: 16px;
+  width: 16px;
+  margin: 2px;
+  transition: 2s ease;
   }
   
   .square:hover {
